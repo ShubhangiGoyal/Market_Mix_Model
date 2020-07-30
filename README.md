@@ -23,6 +23,7 @@ It is used to identify the key variables that exhibit a good relationship with t
 
 ## POSSIBLE ISSUES WITH DATA
 Two major challenges faced by marketers while developing MMM:
+
 i) **Outliers:** It is a process of finding data objects with behaviors that are very different from expectation, basically values with extremely high or low spikes.
 he reason for an outlier could be seasonality, a new product launch, campaign, promotion, discounts, competitor actions, etc. It could also be due to randomness.
 
