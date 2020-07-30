@@ -1,8 +1,8 @@
 For detailed study , refer :
 Marketing Mix Modelling Analysis - https://medium.com/@goyal.shubhangi/marketing-mix-modelling-analysis-fdf2853ea788
 
-# Marketing Mix Modelling Analysis
 
+# Marketing Mix Modelling Analysis
 The key purpose of MMM, which serves as a decision-making tool for brands, aims for effective marketing(online and offline medium) to maximize Return of Investment(ROI) on production, sales and distribution of the right product at the right time and right place while available at the right price(ie., right product and services)
 
 ## MARKETING MEDIUMS
