@@ -50,24 +50,40 @@ It can be implemented via Semi-logarithmic models(aka, Log-Linear Models) and Lo
 ## MODEL IMPROVEMENTS
 Errors impact the accuracy of the model's predictions and actual outcomes. Sometimes, the model performs well on training data, but poorly on validation or test data.
 To resolve this, marketers need to analyze-
+
 i) Bias: Difference between the average predictions of the model and actual value we are trying to predict. Models with a high bias can lead to errors in training and test data.
+
 ii) Variance: Error which arises from sensitivity to small changes in the training set. Models with this error perform very well or training data, but have a high error on test data.
+
 iii) Bias-Variance Trade-Off: The model can have either under-fitting (where the model is unable to capture underlying parameters) or have over-fitting (where the model captures the noise along with parameters). 
+
 An under fitted model can have high bias and low variance. On the other hand, an overfitted model can have low bias and high variance. Therefore, marketers need to strike a balance between the two with a bias-variance trade-off to develop an accurate model.
+
 Through regularization, add a penalty term to the objective function and control the model complexity completely using that term. It can be implemented via-
+
 i) Lasso regression: Minimise the objective function by adding a penalty term (sum of the absolute values of coefficients). By penalizing the absolute values, the estimated coefficients shrink to zero such that overfitting is avoided and the learning is faster.
+
 ii) Ridge regression: Minimise the objective function by adding a penalty term (sum of the squares of coefficients). When there is a multicollinearity problem among the predictor variables, the coefficient of one variable depends on other predictor variables included in the model. By adding the penalty term, coefficients of collinear variables will shrink, except for the significant predictor among them.
+
 iii) Elastic-net regression: Combining the penalties of Lasso and Ridge Regression, this is usually the preferred method as it combines the best of both models.
-MODEL EVALUATION
+
+## MODEL EVALUATION
 The selection of the marketing mix model is crucial for marketers to be able to make accurate predictions and estimations. There are two main considerations to take into account when selecting a model-
+
 i) Business Logic: The model should be reflective of the actual market scenario.
 For example, Apple decreases the rates of its previous models with the launch of the new iPhone series otherwise it might impact the sales negatively.
 A few features that can be implemented would be like Media advertisements for the product should have positive coefficients in the model, Halo or Cannibalisation Effect can occur due to promotions for other products from the brand, Adstock value for TVCs should be greater than for digital ads since TVCs have a higher brand recall, Discounts and promotions creates an immediate impact on sales, etc.
+
 ii) Statistical Logic : Based on the problem, model should be evaluated keeping validation and prediction quality in check. 
 Rsqaure which defines how close the data are to the fitted regression line, Adjusted Rsquare, Regression Coefficients which estimates unknown population parameters and describe relationship between a predictor variable and response, Variance Inflation Factor (VIF) detects multicollinearity(correlation between predictors)in regression analysis, MAE measures the average magnitude of the errors in a set of predictions, MAPE is the average absolute percent error or predicted values minus actuals divided by actuals for each observation.
-ADVANTAGES
+
+## ADVANTAGES
 A few key advantage of the MMM are-
+
 → The success or failure of a product or service in the market can also be traced back to how accurate and efficient its marketing mix was.
+
 → Identifies the most suitable marketing channel (Eg. TV, online, print, radio, etc.) to achieve the marketing objectives and get maximum returns.
+
 → Markets can suggest optimal spending levels in highly effective marketing channels to avoid saturation.
+
 → Forecast business metrics based on planned marketing activities and then simulate various business scenarios like increase in spends by 10%, the level of spends required to achieve 10% lift in business metric, etc.
